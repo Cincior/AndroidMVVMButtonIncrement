@@ -2,8 +2,16 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MVVMButtonExample" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/primary</item>
+         <item name="colorPrimaryDark">@color/primaryDark</item>
+         <item name="colorPrimaryVariant">@color/white</item>
+         <item name="colorAccent">@color/accent</item>
+        <item name="statusBarBackground">@color/white</item>
+        <item name="android:windowLightStatusBar">false</item>
+
     </style>
 
-    <style name="Theme.MVVMButtonExample" parent="Base.Theme.MVVMButtonExample" />
+    <style name="Theme.MVVMButtonExample" parent="Base.Theme.MVVMButtonExample">
+
+    </style>
 </resources>
